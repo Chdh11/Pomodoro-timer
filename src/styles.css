@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+body{
+    background-image: url(ghibli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #121523;
+}
+.playlist{
+    position: fixed;
+    left:650px;
+    margin-top:30px;
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+.playlist:hover{
+    opacity: 0.9;
+}
+.timer-container{
+    background-color: #f5f5e048;
+    width:630px;
+    height: 400px;
+    margin-top: 5%;
+    position: relative;
+    left:650px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 45% 30%;  
+    transition: all 0.3s;
+
+}
+.timer-container:hover{
+    background-color: #f5f5e056;
+}
+.timer-container .timer-button-container{
+    margin:60px auto auto auto;
+    display: flex;
+    justify-content:center;
+}
+.timer-container .timer-button-container button{
+    width:120px;
+    height:40px;
+    border:1.5px solid white;
+    color: white;
+    font-weight: 550;
+    margin: auto 15px auto 15px;
+    background-color: #f5f5e007;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.timer-container .timer-button-container button:focus{
+    background-color: #f6f6f3;
+    color: #121523;
+    border:none;
+    cursor: pointer;
+    outline: none;
+}
+.timer-container .timer-button-container button:hover{
+    background-color: #f6f6f3;
+    color: #121523;
+    border:none;
+    cursor: pointer;
+}
+.timer-container .timer{
+    align-self: center;
+    color: white;
+    font-size: 120px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.timer-container .control-buttons{
+    margin-top:10px;
+    align-self: start;
+}
+.timer-container .control-buttons button{
+    width:120px;
+    height:40px;
+    border:none;
+    color: #121523;
+    font-weight: 550;
+    font-size: 16px;
+    margin: auto 15px auto 15px;
+    background-color: #f6f6f3;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+.timer-container .control-buttons button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.timer-container .control-buttons button:focus{
+    outline: none;
+}
