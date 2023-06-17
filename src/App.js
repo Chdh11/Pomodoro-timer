@@ -9,7 +9,6 @@ const Actions={
   short_break:'short_break',
   long_break:'long_break',
   updateTime:'update-time',
-  stop:'stop'
 } 
 
 const ini={
