@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Pomodoro-timer/static/css/main.3bc184e6.css",
+    "main.js": "/Pomodoro-timer/static/js/main.609a33bc.js",
+    "static/js/787.b1af5461.chunk.js": "/Pomodoro-timer/static/js/787.b1af5461.chunk.js",
+    "static/media/ghibli.jpg": "/Pomodoro-timer/static/media/ghibli.34e8492040bd4a48c384.jpg",
+    "static/media/alarm.mp3": "/Pomodoro-timer/static/media/alarm.6c19b7b9a533c76b395a.mp3",
+    "static/media/click.wav": "/Pomodoro-timer/static/media/click.6b885d08b1dd5737c869.wav",
+    "index.html": "/Pomodoro-timer/index.html",
+    "main.3bc184e6.css.map": "/Pomodoro-timer/static/css/main.3bc184e6.css.map",
+    "main.609a33bc.js.map": "/Pomodoro-timer/static/js/main.609a33bc.js.map",
+    "787.b1af5461.chunk.js.map": "/Pomodoro-timer/static/js/787.b1af5461.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bc184e6.css",
+    "static/js/main.609a33bc.js"
+  ]
+}
