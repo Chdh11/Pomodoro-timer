@@ -58,7 +58,7 @@ function App() {
     dispatch({type:Actions.updateTime})
   }
   useEffect(()=>{
-    document.title='Pomodoro'
+    document.title=`${state.minute}:${state.second} Let's Work!!`
     let inte=null;
     if (state.minute==='0' && state.second==='0') {setStart(false); new Audio(alarm).play()}
     if(start){
